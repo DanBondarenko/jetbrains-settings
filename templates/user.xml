@@ -1,0 +1,25 @@
+<templateSet group="user">
+  <template name="er" value="app.logger.error($SELECTION$$END$)" description="app.logger.error()" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+      <option name="Python_Class" value="false" />
+    </context>
+  </template>
+  <template name="raw" value="{% raw %}&#10;$SELECTION$$END$&#10;{% endraw %}" description="{% raw %} / {% endraw %}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Django" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fun" value="function () {&#10;    $SELECTION$$END$&#10;}" description="Wrap in function" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="if" value="{% if %}&#10;$SELECTION$$END$&#10;{% endif %}" description="{% if %} / {% endif %}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

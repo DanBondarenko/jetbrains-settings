@@ -1,0 +1,12 @@
+<templateSet group="html/xml">
+  <template name="1. HTML Comment" value="&lt;!--$SELECTION$--&gt;" description="Surrounds with HTML style comment." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="2. HTML Multi-line Comment" value="&lt;!--&#10;$SELECTION$&#10;//--&gt;" description="Surrounds with HTML style multi-line comment." toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,11 @@
+<application>
+  <component name="ExportableFileTemplateSettings">
+    <includes_templates>
+      <template name="ActionScript File Header.as" reformat="true" live-template-enabled="false" enabled="false" />
+    </includes_templates>
+    <code_templates>
+      <template name="Catch Statement Body.java" reformat="true" live-template-enabled="true" enabled="true" />
+      <template name="Dynamic Method Body.java" reformat="true" live-template-enabled="true" enabled="true" />
+    </code_templates>
+  </component>
+</application>
